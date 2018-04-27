@@ -2,15 +2,12 @@
 layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
+published: false
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Naresh. I have been working as software engineer for around 6.5 years on Java and Native Android development. I <3 programming. I have developed passion towards machine learning since the past 1.5 years. Have been learning stuff related to machine learning. Have been certified for [Deep Learning Specialisation](https://www.coursera.org/account/accomplishments/specialization/certificate/NZTTSED2DZGA) in Coursera.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Thought of blogging about what I know.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Company
+I am working in Tata Consultancy Services right from the beginning of my carrier (Nov-2011).
