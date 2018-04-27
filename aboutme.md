@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Know who I am
+subtitle: Little bit about myself
 published: true
 ---
 
