@@ -36,7 +36,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: https://avatars0.githubusercontent.com/u/1726582?s=400&v=4
 
 # --- Background colour/image options --- #
 
