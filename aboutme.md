@@ -4,8 +4,8 @@ title: About me
 subtitle: Little bit about myself
 published: true
 ---
-### ![work.png]({{site.baseurl}}/img/work.png =25x) Work - Tata Consultancy Services - IT Analyst (since Nov 2011)
-Developing Android and Web Services using Java
+### ![work.png]({{site.baseurl}}/img/work.png =25x) Work
+Working in TCS as Web Services and Android using Java since Nov 2011
 
 ### Hobby
 
