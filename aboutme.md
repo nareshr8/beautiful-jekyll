@@ -4,10 +4,8 @@ title: About me
 subtitle: Little bit about myself
 published: true
 ---
-
-### Work
-
-Working orking in Tata Consultancy Services right from the beginning of my carrier (Nov-2011) as software engineer for around 6.5 years on Java and Native Android development.
+### ![work.png]({{site.baseurl}}/img/work.png) Work - Tata Consultancy Services - IT Analyst (since Nov 2011)
+Developing Android and Web Services using Java
 
 ### Hobby
 
