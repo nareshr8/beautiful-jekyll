@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Naresh
+title: nareshr8
 
 # Short description of your site
 description: Blogging stuff just for fun
@@ -32,11 +32,11 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: "https://avatars0.githubusercontent.com/u/1726582?s=400&v=4"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: https://avatars0.githubusercontent.com/u/1726582?s=400&v=4
+#title-img: https://avatars0.githubusercontent.com/u/1726582?s=400&v=4
 
 # --- Background colour/image options --- #
 
