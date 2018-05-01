@@ -72,10 +72,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 #  rss: true
-  email: "nareshr8@gmail.com"
+#  email: "nareshr8@gmail.com"
 #  facebook: daattali
   github: nareshr8
-  twitter: nareshr8
+#  twitter: nareshr8
 #  reddit: yourname
 #  google-plus: +DeanAttali
   linkedin: nareshr8
@@ -85,7 +85,7 @@ social-network-links:
 #  instagram: deanat78
 #  youtube: user/deanat78
 #  spotify: yourname
-  telephone: +14798660486
+#  telephone: +14798660486
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
