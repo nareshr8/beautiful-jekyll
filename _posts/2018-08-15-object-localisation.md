@@ -40,7 +40,7 @@ As part of improvising, we can
 - tag multiple items on the same image.
 - identify each class of the tagged image.
 - Use this process as part of a end to end solution. 
-		<br><i>For example, if we want to know the price of a product, we naturally find the location where the price is listed. After localizing the place where the price is listed, we try to read the price. We can do the same with machines to understand the price of the product. </i></br>
+		<br><i>For example, if we want to know the price of a product, we naturally find the location where the price is listed. After localizing the place where the price is listed, we try to read the price. We can do the same with machines to understand the price of the product. </i>
 - Use to develop Optical Character Recognition. We tag each character and a classifier that classifies between A-Z and Numbers. The characters with lesser space between them forms a word.
 
 
