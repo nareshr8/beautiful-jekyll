@@ -15,7 +15,7 @@ The problem statement is easy for a kid to perform, but was impossible few years
 We are using a python library "Fast AI" to perform this task. If you are little unfamiliar with Fast AI, checkout fast.ai. It’s the easiest way to get your hands on machine learning and do some exciting tasks straight up.
 
 # Problem Statement
-Your company sends the manufactured products out of the garage only when they have been tested. The tested products have a seal like this:<stamp-image.png> 
+Your company sends the manufactured products out of the garage only when they have been tested. The tested products have a seal like this:![Stamp Image](../img/stamp-image.png) 
 
 You are a data scientist or a machine learning engineer who is trying to use computers to check if the product is tested or not instead of humans, as it speeds up the disposal of the products.
 # Why Data Augmentation
@@ -23,14 +23,14 @@ Most of the time the company doesnt have enough images to perform machine learni
 # Data Augmentation
 We plan to augment whatever data is needed. We crawl through the web and pull images of various products and superimpose this stamp over them to create data that we are looking for. We thereby have a set of images that is available with/without stamp and the location if its available.
 ## Image Crawling
-For image crawling in python we have a library 'icrawler', which I have used and seem to pull images from different data sources like Google, Bing, Baidu. We can use the crawler to pull the images from internet. The working crawler notebook is available in <this> notebook.
+For image crawling in python we have a library 'icrawler', which I have used and seem to pull images from different data sources like Google, Bing, Baidu. We can use the crawler to pull the images from internet. The working crawler notebook is available in [this](https://github.com/nareshr8/Image-Localisation/blob/master/crawler.ipynb) notebook.
 
 ### Why crawl thousands of images?
 If we have only 10 images in training set as background and superimpose the stamp in various locations, there is a possibility of overfitting, meaning that the machine will try to remove the 10 possible backgrounds and check if any of the remaining pixel is having the value, instead of looking at the stamp. Which will not be the ideal scenario for the actual images. So, even if its augmentation, the more data the better.
 ## Image Super-Imposition
-I have used PIL library to super impose the images. The image preprocessing is done in this notebook.
+I have used PIL library to super impose the images. The image preprocessing is done in [this](https://github.com/nareshr8/Image-Localisation/blob/master/Image%20PreProcessing.ipynb) notebook.
 # Training the Model
-For training the model, we train the model using the notebook that is available <here>.
+For training the model, we train the model using the notebook that is available [here](https://github.com/nareshr8/Image-Localisation/blob/master/Localisation.ipynb).
 # Other variants
 Here we used only one stamp and we are checking if that particular stamp is available. Instead, we can generate data with all the variety of labels with all variants of stamps as well and pretty much follow the same procedure. We would be able to train the model to check for any of the stamps is available and the location.
 	The other alternative is Person Tagging. Similar to stamps, we can give a set of images with people faces and ask the machine to tag the person's face on the image.
