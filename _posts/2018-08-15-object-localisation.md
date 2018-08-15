@@ -35,14 +35,15 @@ For training the model, we train the model using the notebook that is available 
 Here we used only one stamp and we are checking if that particular stamp is available. Instead, we can generate data with all the variety of labels with all variants of stamps as well and pretty much follow the same procedure. We would be able to train the model to check for any of the stamps is available and the location.
 	The other alternative is Person Tagging. Similar to stamps, we can give a set of images with people faces and ask the machine to tag the person's face on the image.
 # Improvisation
-As part of improvising, we can 
-	* tag multiple items on the same image
-	* identify each class of the tagged image
-	* Use this process as part of a end to end solution. 
+As part of improvising, we can
+- tag multiple items on the same image.
+- identify each class of the tagged image.
+- Use this process as part of a end to end solution. 
 		<br><i>For example, if we want to know the price of a product, we naturally find the location where the price is listed. After localizing the place where the price is listed, we try to read the price. We can do the same with machines to understand the price of the product. </i></br>
-	* Use to develop Optical Character Recognition. We tag each character and a classifier that classifies between A-Z and Numbers. The characters with lesser space between them forms a word.
+- Use to develop Optical Character Recognition. We tag each character and a classifier that classifies between A-Z and Numbers. The characters with lesser space between them forms a word.
 
 
 I may try some of these myself and post if something really cool works out.
+
 Post your comments and let know your views on this.
 
