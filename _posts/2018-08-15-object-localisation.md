@@ -4,6 +4,7 @@ title: Object Localization
 subtitle: Identify where the stamp is available in the image
 gh-repo: nareshr8/Image-Localisation
 gh-badge: [star, fork, follow]
+bigimg: /img/9901b8ce-03dc-4489-9d61-2fced45ebd39.jpeg
 tags: [object-localisation,CNN,ResNet,fast-ai,fastai]
 published: true
 ---
