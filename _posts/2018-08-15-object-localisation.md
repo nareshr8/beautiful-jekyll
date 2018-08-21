@@ -24,7 +24,7 @@ Most of the time the company doesnt have enough images to perform machine learni
 # Data Augmentation
 We plan to augment whatever data is needed. We crawl through the web and pull images of various products and superimpose this stamp over them to create data that we are looking for. We thereby have a set of images that is available with/without stamp and the location if its available.
 ## Image Crawling
-For image crawling in python we have a library 'icrawler', which I have used and seem to pull images from different data sources like Google, Bing, Baidu. We can use the crawler to pull the images from internet. The working crawler notebook is available in [this](https://github.com/nareshr8/Image-Localisation/blob/master/crawler.ipynb) notebook.
+For image crawling in python we have a library 'icrawler', which I have used and seem to pull images from different data sources like Google, Bing, Baidu. We can use the crawler to pull the images from internet. The working crawler notebook is available [here](https://github.com/nareshr8/Image-Localisation/blob/master/crawler.ipynb).
 
 ### Why crawl thousands of images?
 If we have only 10 images in training set as background and superimpose the stamp in various locations, there is a possibility of overfitting, meaning that the machine will try to remove the 10 possible backgrounds and check if any of the remaining pixel is having the value, instead of looking at the stamp. Which will not be the ideal scenario for the actual images. So, even if its augmentation, the more data the better.
