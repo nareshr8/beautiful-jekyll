@@ -28,4 +28,4 @@ I <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZ
 
 I have developed passion towards machine learning and started working for more than 1.5 years. Have been certified for [Deep Learning Specialisation](https://www.coursera.org/account/accomplishments/specialization/certificate/NZTTSED2DZGA) in Coursera.
 
-Also, I am also certified in [Android Application Development](https://www.coursera.org/account/accomplishments/certificate/44BEBZEAE6) .I have put few android apps and put on [Play Store](https://play.google.com/store/apps/developer?id=Hayagriv)
+Also, I am also certified in [Android Application Development](https://www.coursera.org/account/accomplishments/certificate/44BEBZEAE6) .I have developed few android apps myself and put on [Play Store](https://play.google.com/store/apps/developer?id=Hayagriv)
