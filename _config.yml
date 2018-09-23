@@ -24,7 +24,6 @@ description: Blogging stuff just for fun
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resume: "resume"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -229,6 +228,11 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+          
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
