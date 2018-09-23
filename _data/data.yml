@@ -68,74 +68,67 @@ experiences:
            Walmart, The Home Depot, Destination (Internal), Century Link, Qantas, AC Nielsen, Vodafone Hutchison Australia
 
 projects:
-    title: Projects
+    title: Playstore Applications
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      List of apps that were developed personally as side projects
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Be Safe
+        link: "https://play.google.com/store/apps/details?id=in.nrsh.bsafe"
+        tagline: "Application for Personal Safety"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Thodarbhu
+        link: "https://play.google.com/store/apps/details?id=in.nrsh.tamilrebus"
+        tagline: "Game of connecting pictures to for a word (in Tamil)"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Camera Plot
+        link: "https://play.google.com/store/apps/details?id=in.nrsh.augumentedreality"
+        tagline: "Augmented Reality application like Nokia Lens"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Remind Me @... 
+        link: "https://play.google.com/store/apps/details?id=naresh.remind.me"
+        tagline: "Location based Reminder application"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: 'M Drivin
+        link: "https://play.google.com/store/apps/details?id=com.am.driving"
+        tagline: "Application to read contact name and message loud when driving"
 
 publications:
-    title: Publications
+    title: Certifications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      List of Certifications that were done
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Deep Learning Specialisation
+        authors: Coursera
+        conference: Feb-2018
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+      - title: Programming Mobile Applications for Android Handheld Systems
+        authors: Coursera
+        conference: May-2015
+        
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Machine Learning
         level: 60%
+
+      - name: Java
+        level: 75%
+
+      - name: Android
+        level: 70%
+
+      - name: Spring
+        level: 75%
+        
+      - name: Python
+        level: 50%
+
+      - name: R
+        level: 30%
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
