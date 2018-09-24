@@ -20,6 +20,8 @@ body {
     background-color: #934AB2;
     overflow-x: hidden;
     padding-top: 20px;
+	padding-left:100px;
+	padding-right:100px;
 }
 
 .sidenav {
@@ -51,11 +53,11 @@ body {
 <div class="main">
   {% include career-profile.html %}
   {% include experiences.html %}
+  {% include education.html %}
   {% include projects.html %}
 </div>
 
 <div class="sidenav">
-  {% include education.html %}
   {% include publications.html %}
   {% include skills.html %}
 </div>
