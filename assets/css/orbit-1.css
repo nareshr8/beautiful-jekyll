@@ -337,4 +337,8 @@ p {
     width: 30%;
     margin-bottom: 0;
   }
+@media print {
+   body * { display:none; }
+   .wrapper * { display:block; }
+}
 }
