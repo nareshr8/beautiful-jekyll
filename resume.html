@@ -18,11 +18,31 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+	<script>
+	function PrintElem()
+{
+    var mywindow = window.open('', 'PRINT', 'height=400,width=600');
+
+    mywindow.document.write('<html><head><title>' + document.title  + '</title>');
+    mywindow.document.write('</head><body >');
+    mywindow.document.write('<h1>' + document.title  + '</h1>');
+    mywindow.document.write(document.getElementById("page").innerHTML);
+    mywindow.document.write('</body></html>');
+
+    mywindow.document.close(); // necessary for IE >= 10
+    mywindow.focus(); // necessary for IE >= 10*/
+
+    mywindow.print();
+    mywindow.close();
+
+    return true;
+}
+	</script>
 </head> 
 
 <body>
 	<div class="wrapper">
-    <div class="page-content">
+    <div id="page">
         <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile" src="assets/images/profile.png" alt="" />
@@ -233,7 +253,7 @@
             
         </div><!--//main-body-->
     </div>
-	<input type="submit" value="Download" class="sun-flower-button block">
+	<input type="submit" value="Download" onclick="PrintElem()"class="sun-flower-button block">
 	</div>
  
     <footer class="footer">
