@@ -338,7 +338,6 @@ p {
     margin-bottom: 0;
   }
 @media print {
-   @media print {
     .wrapper {
         background-color: white;
         height: 100%;
@@ -350,9 +349,6 @@ p {
         padding: 15px;
         font-size: 14px;
         line-height: 18px;
-    }
-}
-
-
+	}
 }
 }
