@@ -18,31 +18,10 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
-	<script>
-	function PrintElem()
-{
-    var mywindow = window.open('', 'PRINT', 'height=400,width=600');
-
-    mywindow.document.write('<html><head><title>' + document.title  + '</title>');
-    mywindow.document.write('</head><body >');
-    mywindow.document.write('<h1>' + document.title  + '</h1>');
-    mywindow.document.write(document.getElementById("page").innerHTML);
-    mywindow.document.write('</body></html>');
-
-    mywindow.document.close(); // necessary for IE >= 10
-    mywindow.focus(); // necessary for IE >= 10*/
-
-    mywindow.print();
-    mywindow.close();
-
-    return true;
-}
-	</script>
 </head> 
 
 <body>
-	<div class="wrapper">
-    <div id="page">
+    <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile" src="assets/images/profile.png" alt="" />
@@ -156,7 +135,7 @@
                         <div class="company">Tata Consultancy Services, Chennai</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Responsible for developing Android, Google Glass, Google Cardboard based applications.</p>
+                        <p>Responsible for developing Android, Google Glass, Google Cardboard, Android Auto based applications.</p>
 						<p><b>Clients:</b> Internal Applications, Century Link, Qantas Airlines, AC Nielsen</p>
                     </div><!--//details-->
                 </div><!--//item-->
@@ -253,8 +232,6 @@
             
         </div><!--//main-body-->
     </div>
-	<input type="submit" value="Download" onclick="PrintElem()"class="sun-flower-button block">
-	</div>
  
     <footer class="footer">
         <div class="text-center">
