@@ -338,7 +338,7 @@ p {
     margin-bottom: 0;
   }
 @media print {
-   body * { display:none; }
-   .wrapper * { display:block; }
+   body * { display:none;  visibility: hidden; }
+   .wrapper * { display:block;  visibility: visible;}
 }
 }
