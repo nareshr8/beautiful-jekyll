@@ -61,7 +61,23 @@ And For **Θ<sub>0</sub>=0** and **Θ<sub>1</sub>=0.5** the hypothesis looks lik
 So, For **Θ<sub>1</sub>=0** and **Θ<sub>1</sub>=0.5** the hypothesis looks like:
 ![Hypothesis Function](../img/posts/.2018-10-03-linear-regression_images\636e7675.png)
 
+
 ### Cost Function
+
+Now, lets bring the graph and training examples together.
+![Hypothesis Function with training examples](../img/posts/.2018-10-03-linear-regression_images\56c08adc.png)
+
+Here, the hypothesis function is the line for a given  Θ<sub>0</sub> and  Θ<sub>1</sub>. And the X denotes the training data for say, the housing price.
+
+We need the hypothesis function to be very close to value of Y, so that we can use this hypothesis function to calculate the output for any new input data. In other words, we need to choose Θ<sub>0</sub>,Θ<sub>1</sub> so that h(X) is very close to Y. 
+
+So, out goal is to minimize the value of the difference between hypothesis and output value of the training data.
+
+> minimize<sub>Θ<sub>0</sub>,Θ<sub>1</sub></sub>Σ(h(x<sup>i</sup>)-y<sup>i</sup>)<sup>2</sup>
+
+<p style="text-align:center">
+  `x = (-b +- sqrt(b^2-4ac))/(2a) .`
+</p>
 
 
 > Disclaimer: Most part of the contents in this blog are from the [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew Ng.
