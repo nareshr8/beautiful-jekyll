@@ -3,7 +3,7 @@ layout: post
 title: Linear Regression
 subtitle: Linear Regression with one Variable
 tags: [ml]
-published: false
+published: true
 ---
 
 # Linear Regression with one Variable
