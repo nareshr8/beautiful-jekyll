@@ -3,7 +3,7 @@ layout: post
 title: Linear Regression
 subtitle: Linear Regression with one Variable
 tags: [ml]
-published: true
+published: false
 ---
 
 # Linear Regression with one Variable
@@ -71,14 +71,29 @@ Here, the hypothesis function is the line for a given  Θ<sub>0</sub> and  Θ<su
 
 We need the hypothesis function to be very close to value of Y, so that we can use this hypothesis function to calculate the output for any new input data. In other words, we need to choose Θ<sub>0</sub>,Θ<sub>1</sub> so that h(X) is very close to Y. 
 
-So, out goal is to minimize the value of the difference between hypothesis and output value of the training data.
+To rephrase it to a mathematical notation, our goal is to minimize the value of the difference between hypothesis and output value of the training data.
 
-> minimize<sub>Θ<sub>0</sub>,Θ<sub>1</sub></sub>Σ(h(x<sup>i</sup>)-y<sup>i</sup>)<sup>2</sup>
+So, we are trying to minimise the squared difference between the hypothesis and actual value and averange across all the **m** training examples. We then half the difference to make the number smaller for caluclation.
 
-<p style="text-align:center">
-  `x = (-b +- sqrt(b^2-4ac))/(2a) .`
-</p>
+The overall goal is
 
+> <img src="http://www.sciweavers.org/tex2img.php?eq=min_%7B%20%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%7D%20%20%5Cfrac%7B1%7D%7B2m%7D%20%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h%28x%5E%7B%28i%29%7D%29-y%5E%7B%28i%29%7D%29%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="min_{ \theta _{0},\theta _{1}}  \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2" width="246" height="50" />
+
+Here we are trying to find the squared difference because it is the most commonly used method that works reasonably well than most other cost functions in a wide variety of applications.
+
+Now, we specify the cost function as 
+> <img src="http://www.sciweavers.org/tex2img.php?eq=J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29%20%3D%20%5Cfrac%7B1%7D%7B2m%7D%20%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h%28x%5E%7B%28i%29%7D%29-y%5E%7B%28i%29%7D%29%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="J(\theta _{0},\theta _{1}) = \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2" width="268" height="50" />
+And our overall goal is to minimize this cost function:
+
+> <img src="http://www.sciweavers.org/tex2img.php?eq=min_%7B%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%7D%20%26%20J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="min_{\theta _{0},\theta _{1}} & J(\theta _{0},\theta _{1})" width="151" height="19" />
+
+#### Intuition
+
+To grow a better intuition about what cost function is and what the minimisation of cost function does, we consider Θ<sub>0</sub> to be 0.
+
+So, our overall goal is 
+
+> min<sub>Θ<sub>1</sub></sub> J(Θ<sub>1</sub>) where <img src="http://www.sciweavers.org/tex2img.php?eq=J_%7B%5Ctheta%20_%7B1%7D%7D%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%20%28h_%7B%5Ctheta%20_%7B1%7D%7D%28X%5E%7B%28i%29%7D%29-Y%5E%7B%28i%29%7D%29%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="J_{\theta _{1}} = \sum_{i=1}^{m} (h_{\theta _{1}}(X^{(i)})-Y^{(i)})^2" width="207" height="50" />
 
 > Disclaimer: Most part of the contents in this blog are from the [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew Ng.
 
