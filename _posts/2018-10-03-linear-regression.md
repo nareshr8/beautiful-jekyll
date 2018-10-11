@@ -49,7 +49,7 @@ The System gets the training set, uses some algorithm to learn the hypothesis fu
 Hypothesis(h) is the function that maps the input X to the output Y, such that `Y=h(X)`. 
 
 The hypothesis can be represented as the following formula, for a uni-variant model
-> h<sub> \theta Θ</sub>(X) = Θ<sub>0</sub>+Θ<sub>1</sub>(X)
+> h<sub>Θ</sub>(X) = Θ<sub>0</sub>+Θ<sub>1</sub>(X)
 <br>where Θ<sub>0</sub> and Θ<sub>1</sub> are parameters of the model
 
 So, For **Θ<sub>0</sub>=1.5** and **Θ<sub>1</sub>=0** the hypothesis looks like:
@@ -84,6 +84,7 @@ Here we are trying to find the squared difference because it is the most commonl
 Now, we specify the cost function as 
 > <img src="http://www.sciweavers.org/tex2img.php?eq=J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29%20%3D%20%5Cfrac%7B1%7D%7B2m%7D%20%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h%28x%5E%7B%28i%29%7D%29-y%5E%7B%28i%29%7D%29%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="J(\theta _{0},\theta _{1}) = \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2" width="268" height="50" />
 And our overall goal is to minimize this cost function:
+$$
 
 > <img src="http://www.sciweavers.org/tex2img.php?eq=min_%7B%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%7D%20%26%20J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="min_{\theta _{0},\theta _{1}} & J(\theta _{0},\theta _{1})" width="151" height="19" />
 
@@ -98,5 +99,5 @@ So, our overall goal is
 > Disclaimer: Most part of the contents in this blog are from the [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew Ng.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjMyMTQxXX0=
+eyJoaXN0b3J5IjpbLTEwNTg3MjU3NDFdfQ==
 -->
