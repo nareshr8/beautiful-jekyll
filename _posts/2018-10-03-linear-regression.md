@@ -83,23 +83,28 @@ $$
 Here we are trying to find the squared difference because it is the most commonly used method that works reasonably well than most other cost functions in a wide variety of applications.
 
 Now, we specify the cost function as 
-$$
-J(\theta _{0},\theta _{1}) = \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2
-$$
+>$$
+>J(\theta _{0},\theta _{1}) = \frac{1}{2m}  >\sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2
+>$$
+
  And our overall goal is to minimize this cost function:
-$$
-min_{\theta _{0},\theta _{1}}  J(\theta _{0},\theta _{1})
-$$
+>$$
+>min_{\theta _{0},\theta _{1}}  J(\theta >_]{0},\theta _{1})
+>$$
+
 #### Intuition
 
 To grow a better intuition about what cost function is and what the minimisation of cost function does, we consider Θ<sub>0</sub> to be 0.
 
 So, our overall goal is 
 
-> min<sub>Θ<sub>1</sub></sub> J(Θ<sub>1</sub>) where <img src="http://www.sciweavers.org/tex2img.php?eq=J_%7B%5Ctheta%20_%7B1%7D%7D%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%20%28h_%7B%5Ctheta%20_%7B1%7D%7D%28X%5E%7B%28i%29%7D%29-Y%5E%7B%28i%29%7D%29%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="J_{\theta _{1}} = \sum_{i=1}^{m} (h_{\theta _{1}}(X^{(i)})-Y^{(i)})^2" width="207" height="50" />
+> min<sub>Θ<sub>1</sub></sub> J(Θ<sub>1</sub>) where 
+> $$
+> J_{\theta _{1}} = \sum_{i=1}^{m} (h_{\theta _{1}}(X^{(i)})-Y^{(i)})^2
+> $$
 
 > Disclaimer: Most part of the contents in this blog are from the [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew Ng.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MzEwOTY5XX0=
+eyJoaXN0b3J5IjpbLTEzODc4MDU2MzRdfQ==
 -->
