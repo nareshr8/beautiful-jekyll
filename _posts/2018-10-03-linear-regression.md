@@ -76,19 +76,19 @@ To rephrase it to a mathematical notation, our goal is to minimize the value of 
 So, we are trying to minimise the squared difference between the hypothesis and actual value and averange across all the **m** training examples. We then half the difference to make the number smaller for caluclation.
 
 The overall goal is
-
-> <img src="http://www.sciweavers.org/tex2img.php?eq=min_%7B%20%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%7D%20%20%5Cfrac%7B1%7D%7B2m%7D%20%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h%28x%5E%7B%28i%29%7D%29-y%5E%7B%28i%29%7D%29%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="min_{ \theta _{0},\theta _{1}}  \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2" width="246" height="50" />
-
+$$
+min_{ \theta _{0},\theta _{1}}  \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2
+$$
+ 
 Here we are trying to find the squared difference because it is the most commonly used method that works reasonably well than most other cost functions in a wide variety of applications.
 
 Now, we specify the cost function as 
 $$
 J(\theta _{0},\theta _{1}) = \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2
 $$
- <img src="http://www.sciweavers.org/tex2img.php?eq=J%28%5Ctheta%20_%7B0%7D%2C%5Ctheta%20_%7B1%7D%29%20%3D%20%5Cfrac%7B1%7D%7B2m%7D%20%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h%28x%5E%7B%28i%29%7D%29-y%5E%7B%28i%29%7D%29%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="J(\theta _{0},\theta _{1}) = \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2" width="268" height="50" />
-And our overall goal is to minimize this cost function:
+ And our overall goal is to minimize this cost function:
 $$
-min_{\theta _{0},\theta _{1}} \frac{1}{2m} J(\theta _{0},\theta _{1})
+min_{\theta _{0},\theta _{1}}  J(\theta _{0},\theta _{1})
 $$
 #### Intuition
 
@@ -101,5 +101,5 @@ So, our overall goal is
 > Disclaimer: Most part of the contents in this blog are from the [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew Ng.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTAyMDA4N119
+eyJoaXN0b3J5IjpbOTQ3MzEwOTY5XX0=
 -->
