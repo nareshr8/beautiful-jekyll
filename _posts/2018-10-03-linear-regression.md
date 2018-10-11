@@ -35,7 +35,11 @@ To understand the notation, Lets take the pricing data as follow:
 
 In the above table, each and every record is a training example that is fed to the system. The size of the house is the input to the machine learning system and it outputs the price as a real valued number. Hence, we denote the values in the following format.
 
-> m - Number of training Examples <br>x - **input** variable / feature <br>y - **output** variable / **target** variable
+> m - Number of training Examples 
+>
+> x - **input** variable / feature 
+>
+> y - **output** variable / **target** variable
 
 To simplify things, (x,y) is denoted as one training example, whereas X(i),Y(i) represents ith training example.
 
@@ -79,32 +83,32 @@ The overall goal is
 $$
 min_{ \theta _{0},\theta _{1}}  \frac{1}{2m}  \sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2
 $$
- 
+
 Here we are trying to find the squared difference because it is the most commonly used method that works reasonably well than most other cost functions in a wide variety of applications.
 
 Now, we specify the cost function as 
 >$$
->J(\theta _{0},\theta _{1}) = \frac{1}{2m}  >\sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2
+>J(\theta _{0},\theta _{1}) = \frac{1}{2m} \sum_{i=1}^{m}(h(X^{(i)})-Y^{(i)})^2
 >$$
+>
 
  And our overall goal is to minimize this cost function:
 >$$
->min_{\theta _{0},\theta _{1}}  J(\theta >_]{0},\theta _{1})
+>min_{\theta _{0},\theta _{1}}  J(\theta_0,\theta _{1})
 >$$
+>
 
 #### Intuition
 
-To grow a better intuition about what cost function is and what the minimisation of cost function does, we consider Θ<sub>0</sub> to be 0.
+To grow a better intuition about what cost function is and what the minimization of cost function does, we consider $$Θ_0$$to be 0.
 
 So, our overall goal is 
 
-> min<sub>Θ<sub>1</sub></sub> J(Θ<sub>1</sub>) where 
 > $$
-> J_{\theta _{1}} = \sum_{i=1}^{m} (h_{\theta _{1}}(X^{(i)})-Y^{(i)})^2
+> min_{\theta_1} J({\theta_1}) \quad where \quad J_{\theta _{1}} = \frac{1}{2m}\sum_{i=1}^{m} (h_{\theta _{1}}(X^{(i)})-Y^{(i)})^2
 > $$
+>
+
+
 
 > Disclaimer: Most part of the contents in this blog are from the [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew Ng.
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc4MDU2MzRdfQ==
--->
