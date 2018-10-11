@@ -49,7 +49,7 @@ The System gets the training set, uses some algorithm to learn the hypothesis fu
 Hypothesis(h) is the function that maps the input X to the output Y, such that `Y=h(X)`. 
 
 The hypothesis can be represented as the following formula, for a uni-variant model
-> h<sub>Θ</sub>(X) = Θ<sub>0</sub>+Θ<sub>1</sub>(X)
+> h<sub> \theta Θ</sub>(X) = Θ<sub>0</sub>+Θ<sub>1</sub>(X)
 <br>where Θ<sub>0</sub> and Θ<sub>1</sub> are parameters of the model
 
 So, For **Θ<sub>0</sub>=1.5** and **Θ<sub>1</sub>=0** the hypothesis looks like:
@@ -97,3 +97,6 @@ So, our overall goal is
 
 > Disclaimer: Most part of the contents in this blog are from the [Machine Learning](https://www.coursera.org/learn/machine-learning) course by Andrew Ng.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTk0MjMyMTQxXX0=
+-->
