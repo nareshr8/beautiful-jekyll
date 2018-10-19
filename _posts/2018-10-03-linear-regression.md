@@ -112,15 +112,6 @@ So, our overall goal is
 Now that we have a goal to achieve. We will plot two graphs. One of the predicted output `h(X)` which we will use to plot the second graph to plot $J_{\theta_{1}}$ so that we can understand what exactly $min_{\theta_{1}}$ means.
 
 ### Vertical Bar
-{% highlight julia %}
-using Vega
-
-x = [1, 2, 3, 4, 5]
-y = [1, 2, 3, 2, 1]
-
-barplot(x = x, y = y)
-{% endhighlight %}
-
  <div id="vis"></div>
 
 <script type="text/javascript">// parse a spec and create a visualization view
