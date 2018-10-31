@@ -114,7 +114,6 @@ Now that we have a goal to achieve. We will plot two graphs. One of the predicte
 ### Vertical Bar
  <div id="vis"></div>
 
-<script type="text/javascript">// parse a spec and create a visualization view
 function parse(spec) {
   vg.parse.spec(spec, function(chart) { chart({el:"#vis"}).update(); });
 }
