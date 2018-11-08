@@ -1,7 +1,12 @@
+---
+layout: post
+title: Classify the Classical Dances of India - II
+subtitle: Learn Identifying Classical Dances
+tags: [fast-ai, icrawler]
+published: true
+---
 
-# Learn Identifying Classical Dances
-
-Now that we have downloaded the images **here**. Our next step is to train the model to learn identifying classical dance images.
+Now that we have downloaded the images [here](https://nareshr8.github.io/2018-11-08-download-classical-dance/). Our next step is to train the model to learn identifying classical dance images.
 
 ## Look into the images
 
