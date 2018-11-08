@@ -94,3 +94,7 @@ Kathak
 ![png](..\img\posts\2018-11-08-classical-dance-i/output_16_1.png)
 
 **Note**: This blog post is completely written in Jupyter notebook. Though, Some outputs that might be not suitable for blog reading are removed.
+
+
+
+To create a model that learns from these images, look into the next part [here](https://nareshr8.github.io/2018-11-08-learn-identifying-classical-dances/)
