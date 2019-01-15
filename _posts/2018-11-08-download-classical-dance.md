@@ -6,7 +6,7 @@ tags: [fast-ai, icrawler]
 published: true
 ---
 
-There are various classical dances that are available all throughout in India. These classical dances are culture specific. For example, Tamil Nadu follows a classical dance called Bharathanaatiyam where as its nearby state, Kerala has a classical dance of Kuchupudi.
+There are various classical dances that are available all throughout in India. These classical dances are culture specific. For example, Tamil Nadu follows a classical dance called Bharathanaatiyam where as its nearby state, Kerala has a classical dance of Kathakali.
 
 Being not much knowledgable in any of the classical dances, I was triggered by the idea of Jeremy Howard who was suggesting that we might be able to solve deep learning problems even if we ourselves arent the domain experts. So, I decided to try myself out if I could build a model that can perform well in classifying the classical dance names.
 
