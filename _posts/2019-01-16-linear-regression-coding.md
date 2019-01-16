@@ -52,7 +52,7 @@ y_i=a*x_i+b
 
 So, if we have to calculate values for `i` examples of $x_i$ and $y_i$ variables, we need to do the computation in loop. 
 
-Now we can also consider $y_i=a*x^1_i+b*x^0_i$
+Now we can also consider $ y_i = a \times x^1_i + b \times x^0_i $
 
 Let's call the complete vector of $x$ ($x^1$ and $x^0$) for all $i$ examples to be $X$ . Complete vector of $y$ (for $i$ examples) to be $Y$. Now the equation becomes like this. 
 
@@ -93,7 +93,7 @@ Y =\begin{bmatrix}
 where the subscript represents the example number (1 through n)
 
 
-The Shape of Y is $n*1$ and $X$ is $n*2$, where n represents the number of examples.
+The Shape of Y is $ n \times1 $ and $ X $ is $ n \times 2 $, where n represents the number of examples.
 
 We can see a working demo of how this equation sums up [here](http://matrixmultiplication.xyz).
 
@@ -125,7 +125,7 @@ n=100
 Now for the 100 records, we are creating a matrix of 2 dimensions, n representing the number of records and 2 representing each example having 2 values. One value being dynamic $x^1$ and other being $x^0$ (i.e. 1). Now $x^1$ may have varied values, however $x^0$ will always be one.
 
 So, we 
-- create a 2D matrix of $100*2$ values of all ones
+- create a 2D matrix of $100 \times 2$ values of all ones
 - Replace the first column with values from a uniform distribution $[-1,1)$ where -1 is included and 1 is excluded
 
 We then verify if the value got updated properly.
@@ -219,7 +219,7 @@ Now, just by looking into the data we would say the error is the difference betw
 
 $J(a,b) = \sum_1^n(y-\hat{y} )$ 
 
-   ** where ** J denotes the cost function, $a$ denotes the parameters which fit in A.
+   **where** J denotes the cost function, $a$ denotes the parameters which fit in A.
 
 However, In practice we are using a different cost function (Note that error function and cost function dentotes the same). This is because if we magnify the error function a little bit, we converge to the correct value more than stating the actual value, using gradient descent. (This is proven to work in machines as well..). So, we take the error function as Mean Squared Error
 
