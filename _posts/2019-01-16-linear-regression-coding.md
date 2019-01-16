@@ -56,21 +56,20 @@ Now we can also consider $y_i=a*x^1_i+b*x^0_i$
 
 Let's call the complete vector of $x$ ($x^1$ and $x^0$) for all $i$ examples to be $X$ . Complete vector of $y$ (for $i$ examples) to be $Y$. Now the equation becomes like this. 
 
-
 \begin{equation}
 Y=X.A 
 \end{equation}
 
 where 
-\begin{align*}
+\begin{equation}
 A =\begin{bmatrix}
            a \\
            b \\
     \end{bmatrix}
-\end{align*}
+\end{equation}
 
 As we consider that the value b is multiplied by $ x^0 $ (which is 1). So, 
-\begin{align*}
+\begin{equation}
 X =\begin{bmatrix}
            x_0  \
            x^0_0 \\
@@ -80,17 +79,17 @@ X =\begin{bmatrix}
            x_n  \
            x^0_n \\
     \end{bmatrix}
-\end{align*}
+\end{equation}
 
 and 
-\begin{align*}
+\begin{equation}
 Y =\begin{bmatrix}
            y_0 \\
            y_1 \\
            \vdots \\
            y_n \\
     \end{bmatrix}
-\end{align*}
+\end{equation}
 where the subscript represents the example number (1 through n)
 
 
@@ -180,17 +179,17 @@ plt.scatter(X[:,0], Y)
 
 ![png](..\img\posts\2019-01-16-linear-regression-coding\output_26_1.png)
 
-Now, our goal is to find the correct value of \begin{align*}
+Now, our goal is to find the correct value of \begin{equation}
 A =\begin{bmatrix}
            a \\
            b \\
     \end{bmatrix}
-\end{align*}
+\end{equation}
 so that we can predict $Y$ for any new set of examples $X$. To do that we have to calculate something called error.
 
 ## Error
 
-Now lets look at what values we could get for a random value of A. A = $\begin{align*}\begin{bmatrix}4112.\ 22000\end{bmatrix}\end{align*}$ gives the value as below.
+Now lets look at what values we could get for a random value of A. A = $\begin{equation}\begin{bmatrix}4112.\ 22000\end{bmatrix}\end{equation}$ gives the value as below.
 
 
 ```python
