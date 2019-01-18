@@ -182,7 +182,7 @@ so that we can predict $Y$ for any new set of examples $X$. To do that we have t
 
 ## Error
 
-Now lets look at what values we could get for a random value of A. A = $\begin{equation}\begin{bmatrix}4112.\ 22000\end{bmatrix}\end{equation}$ gives the value as below.
+Now lets look at what values we could get for a random value of A. A = $\begin{equation}\begin{bmatrix}4112.\\\ 22000\end{bmatrix}\end{equation}$ gives the value as below.
 
 
 ```python
@@ -520,7 +520,7 @@ css/font-awesome.min.css">
     <br>
     <input id="_anim_slider6b9e13c96d244377af3bdba3f184823d" type="range" style="width:350px"
            name="points" min="0" max="1" step="1" value="0"
-           onchange="anim6b9e13c96d244377af3bdba3f184823d.set_frame(parseInt(this.value));"></input>
+           onchange="anim6b9e13c96d244377af3bdba3f184823d.set_frame(parseInt(this.value));">
     <br>
     <button onclick="anim6b9e13c96d244377af3bdba3f184823d.slower()"><i class="fa fa-minus"></i></button>
     <button onclick="anim6b9e13c96d244377af3bdba3f184823d.first_frame()"><i class="fa fa-fast-backward">
@@ -540,11 +540,11 @@ css/font-awesome.min.css">
     <button onclick="anim6b9e13c96d244377af3bdba3f184823d.faster()"><i class="fa fa-plus"></i></button>
   <form action="#n" name="_anim_loop_select6b9e13c96d244377af3bdba3f184823d" class="anim_control">
     <input type="radio" name="state"
-           value="once" > Once </input>
+           value="once" > Once 
     <input type="radio" name="state"
-           value="loop" checked> Loop </input>
+           value="loop" checked> Loop 
     <input type="radio" name="state"
-           value="reflect" > Reflect </input>
+           value="reflect" > Reflect 
   </form>
 </div>
 
