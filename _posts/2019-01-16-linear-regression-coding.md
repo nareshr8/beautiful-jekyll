@@ -174,8 +174,8 @@ plt.scatter(X[:,0], Y)
 
 Now, our goal is to find the correct value of \begin{equation}
 A =\begin{bmatrix}
-           a \\
-           b \\
+           a \\\
+           b \\\
     \end{bmatrix}
 \end{equation}
 so that we can predict $Y$ for any new set of examples $X$. To do that we have to calculate something called error.
