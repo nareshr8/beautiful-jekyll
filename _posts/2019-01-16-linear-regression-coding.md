@@ -67,21 +67,20 @@ X =\begin{bmatrix}
            x_0  \
            x^0_0 \\\
            x_1  \
-           x^0_1 \\\           
-
-​	\vdots \\\
-​           x_n  \
-​           x^0_n \\\
-​    \end{bmatrix}
+           x^0_1 \\\
+           \vdots \\\
+           x_n  \
+           x^0_n \\\
+    \end{bmatrix}
 \end{equation}
 
 and 
 \begin{equation}
 Y =\begin{bmatrix}
-           y_0 \\
+           y_0 \\\
            y_1 \\\
            \vdots \\\
-           y_n \\\
+           y_n \\\\
     \end{bmatrix}
 \end{equation}
 where the subscript represents the example number (1 through n)
