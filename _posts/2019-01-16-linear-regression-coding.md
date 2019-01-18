@@ -148,7 +148,7 @@ We then create a tensor with 2 values that could represent A. We arbitrarily set
 A=tensor([134112.,220])
 ```
 
-Now, we are going to do the *matrix product* of the values X and A to get our Y value. Note that we are adding a random value here so that we dont have 
+Now, we are going to do the *matrix product* of the values X and A to get our Y value. Note that we are adding a random value here so that we don't have the values strictly fitting. In real world we mostly run into data that doesn't fit into straight line. So, We are trying to replicate such effect in our data that is being generated.
 
 
 ```python
@@ -182,7 +182,7 @@ so that we can predict $Y$ for any new set of examples $X$. To do that we have t
 
 ## Error
 
-Now lets look at what values we could get for a random value of A. A = $\begin{equation}\begin{bmatrix}4112.\\\ 22000\end{bmatrix}\end{equation}$ gives the value as below.
+Now lets look at what values we could get for a random value of A. A = $\begin{equation}\begin{bmatrix}-41289.\\\ 22000\end{bmatrix}\end{equation}$ gives the value as below.
 
 
 ```python
