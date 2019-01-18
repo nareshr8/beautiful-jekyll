@@ -56,8 +56,8 @@ Y=X.A
 where 
 \begin{equation}
 A =\begin{bmatrix}
-           a \\\\
-           b \\\\
+           a \\\
+           b \\\
     \end{bmatrix}
 \end{equation}
 
@@ -67,20 +67,21 @@ X =\begin{bmatrix}
            x_0  \
            x^0_0 \\\
            x_1  \
-           x^0_1 \\\\
-           \vdots \\\\
-           x_n  \
-           x^0_n \\\\
-    \end{bmatrix}
+           x^0_1 \\\           
+
+​	\vdots \\\
+​           x_n  \
+​           x^0_n \\\
+​    \end{bmatrix}
 \end{equation}
 
 and 
 \begin{equation}
 Y =\begin{bmatrix}
            y_0 \\
-           y_1 \\
-           \vdots \\
-           y_n \\
+           y_1 \\\
+           \vdots \\\
+           y_n \\\
     \end{bmatrix}
 \end{equation}
 where the subscript represents the example number (1 through n)
