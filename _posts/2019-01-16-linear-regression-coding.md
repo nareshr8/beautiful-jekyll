@@ -6,8 +6,6 @@ tags: [fast-ai, ml, pytorch, linear-regression]
 published: true
 ---
 
-# Understanding Linear Regression
-
 The linear regression is the basic building block algorithm for most Machine learning algorithms. It is the simplest machine learning algorithm used for both regression and classification problems. It is used as a building block for most complicated architectures like Neural Network, Convolution Neural Network and Recurrent Neural Network. Hence having a basic understanding for it will give us a great overview of how complicated machine learning architectures are built upon.
 
 ## Basics
@@ -58,8 +56,8 @@ Y=X.A
 where 
 \begin{equation}
 A =\begin{bmatrix}
-           a \\
-           b \\
+           a \\\\
+           b \\\\
     \end{bmatrix}
 \end{equation}
 
@@ -67,12 +65,12 @@ As we consider that the value b is multiplied by $ x^0 $ (which is 1). So,
 \begin{equation}
 X =\begin{bmatrix}
            x_0  \
-           x^0_0 \\
+           x^0_0 \\\
            x_1  \
-           x^0_1 \\
-           \vdots \\
+           x^0_1 \\\\
+           \vdots \\\\
            x_n  \
-           x^0_n \\
+           x^0_n \\\\
     \end{bmatrix}
 \end{equation}
 
