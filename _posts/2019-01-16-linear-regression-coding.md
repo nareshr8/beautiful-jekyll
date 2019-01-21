@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Understanding Linear Regression - Basics
 subtitle: Using Pytorch to learn linear regression by coding
@@ -25578,3 +25578,6 @@ plt.ylabel('Iterations')
 Now, We could see that the Cost or Error reduces as the number of iterations increase. After a point, we no longer see a decrease in *error rate*. This error is due to the anonymity.
 
 *Note* The post is mainly inspired from the [Fast AI](fast.ai) course.
+
+
+The complete link to the working notebook is [here](https://github.com/nareshr8/ML-Notebooks/blob/master/Linear%20Regression.ipynb).
