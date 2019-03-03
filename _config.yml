@@ -24,7 +24,7 @@ description: Blogging stuff just for fun
 
 # List of links in the navigation bar
 navbar-links:
-  Computer Vision: "\_posts\Computer Vision"
+  Computer Vision: "_posts\cv\"
   About Me: "aboutme"
   Resume: "resume"
 #  Resources:
