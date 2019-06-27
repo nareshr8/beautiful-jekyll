@@ -43,9 +43,8 @@ p {
 
 .wrapper {
   background: #42A8C0;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
-  margin-top: 30px;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -56,10 +55,11 @@ p {
   background: #42A8C0;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 300px;
   height: 100%;
   min-height: 800px;
   color: #fff;
+
 }
 
 .sidebar-wrapper a {
@@ -67,10 +67,10 @@ p {
 }
 
 .sidebar-wrapper .profile-container {
-  padding: 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
+  padding: 40px;
 }
 
 .sidebar-wrapper .name {
@@ -86,6 +86,7 @@ p {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 0;
+
 }
 
 .sidebar-wrapper .profile {
@@ -180,8 +181,11 @@ p {
 
 .main-wrapper {
   background: #fff;
-  padding: 60px;
+  padding: 40px;
   padding-right: 300px;
+  padding-top:80px;
+  height:1580px;
+
 }
 
 .main-wrapper .section-title {
@@ -192,6 +196,8 @@ p {
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
+  margin-right: 40px;
+  
 }
 
 .main-wrapper .section-title .icon-holder {
@@ -222,6 +228,7 @@ p {
 
 .main-wrapper .section {
   margin-bottom: 60px;
+  margin-right: 40px;
 }
 
 .main-wrapper .experiences-section .item {
@@ -312,43 +319,4 @@ p {
   color: #fb866a;
 }
 
-@media (max-width: 767.98px) {
-  .sidebar-wrapper {
-    position: static;
-    width: inherit;
-  }
-  .main-wrapper {
-    padding: 30px;
-  }
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
-  .main-wrapper .upper-row {
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .skillset .level-title {
-    display: inline-block;
-    float: left;
-    width: 30%;
-    margin-bottom: 0;
-  }
-@media print {
-    .wrapper {
-        background-color: white;
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        margin: 0;
-        padding: 15px;
-        font-size: 14px;
-        line-height: 18px;
-	}
-}
 }
