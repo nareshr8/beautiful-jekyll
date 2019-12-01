@@ -24,9 +24,9 @@ description: Blogging stuff just for fun
 
 # List of links in the navigation bar
 navbar-links:
+  Image Processing: "Image-Processing"
   About Me: "aboutme"
   Resume: "resume"
-  Image Processing: "Image-Processing"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
