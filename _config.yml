@@ -24,7 +24,7 @@ description: Blogging stuff just for fun
 
 # List of links in the navigation bar
 navbar-links:
-  Image Processing: "Image-Processing"
+  Machine Learning: "ml_posts"
   About Me: "aboutme"
   Resume: "resume"
 #  Resources:
