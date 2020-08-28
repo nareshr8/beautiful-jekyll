@@ -26,7 +26,7 @@ description: Blogging stuff just for fun
 navbar-links:
   Machine Learning: "ml_posts"
   About Me: "aboutme"
-  Resume: "resume"
+  Resume: "https://github.com/nareshr8/nareshr8.github.io/raw/master/Naresh%20-%20Resume.pdf"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
